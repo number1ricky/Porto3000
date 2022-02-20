@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+.mainLogo {
+    width: 30vw;
+    height:20vh;
+}
+.header { 
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+    background-color: blanchedalmond;
+    color: white
+}
+.pageHeader {
+    text-align: center;
+    padding: 6px;
+    background-color: #5E080D;
+    color: white;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 12px;
+}
+:any-link {
+    text-decoration: none;
+    color: white; 
+    padding: 6px;   
+}
+.cartIcon {
+    width:15px;
+    height: 15px;
+}

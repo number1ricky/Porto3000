@@ -1,0 +1,91 @@
+.productContainer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 35px; */
+    background-image: url("../images/grapes.jpg");
+}
+.productCard {
+    width: 70vw;
+}
+.productName{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cardDetails{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 8px;
+    padding:10px;
+}
+.singleCardContent{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    border-left: solid #eab354 8px;
+    
+}
+.productImage{
+    height: 100%;
+    width: 180px;
+    padding-bottom:20px;
+    padding-top: 2px;
+    background-color: white;
+}
+.innerCard{
+    display: flex;
+    justify-content: center;
+}
+.productDescription{
+    width: 40vw;
+}
+.productPrice{
+    margin-bottom: 2px;
+}
+.singleProdButtonContainer{
+    display: flex;
+    margin-top: 20px;
+    width: 40%;
+    gap: 5%;
+}
+.returnToAllProducts{
+    text-align:center;
+}
+.sealContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 50vh;
+}
+.portoSeal {
+    margin-top:15px;
+    width: 180px;
+}
+.sealDescription{
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.productsButton {
+    padding: 6px;
+    background-color: rgb(184, 182, 182);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    width: 500px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.productsButton:hover{
+    background-color:#5E080D;
+    color: white;
+}
+.searchbar{
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}

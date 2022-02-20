@@ -1,0 +1,46 @@
+body {
+    background: blanchedalmond;
+}
+
+.container {
+    background: url("../images/grapes.jpg");
+    background-size: 100% ;
+    height: 80vh;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 1%;
+    background: rgb( 255, 255, 255, 0.8)
+}
+
+input {
+    margin: 1rem;
+    text-align: center;
+    width: 35vw;
+    height: 30px;
+    padding: 0 4rem;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submit {
+    margin-top: 3vh;
+    margin: 1rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.submit:hover{
+    background-color:#5E080D;
+    color: white;
+}

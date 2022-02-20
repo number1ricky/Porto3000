@@ -1,0 +1,82 @@
+.componentContainer{
+    background: url("../images/Sunrise.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.aboutHeader { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20% 2%;
+    background: rgba(250, 210, 142, 0.75);
+
+}
+.headerText{
+    font-size: 1.5rem;
+}
+.founderHeader{
+    width:60vw;
+    margin-top: 1vh;
+}
+h2 {
+    margin: 3vh 0;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2vh auto;
+    padding: 2%;
+}
+.aboutText{
+    text-align: center;
+    padding: 25px;
+    width: 20vw;
+    height: auto;
+}
+
+.developerPhoto {
+    width: 14vw;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.felixPhoto {
+    height: 14vw;
+    translate: 20px;
+}
+.michellePhoto {
+    height: 14vw;
+    translate: 20px;
+}
+.rickyPhoto {
+    height: 14vw;
+    translate: 20px;
+}
+.outterContainer { 
+    width: 23vw;
+    height: auto;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 20px;
+}
+.linkedInContainer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.linkedIn {
+    width: 34px;
+    height: 30px;
+    margin-top: 5%;
+}
+.gitHub{
+    width: 30px;
+    height: 30px;
+    margin-top: 5%;
+}
